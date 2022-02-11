@@ -65,3 +65,36 @@
     git commit -m "Commit Inicial do Projeto"
 
 =================================================================================================================
+
+-> Iniciar um repositorio local
+    git init
+
+-> Adicionando servidor remoto com nome origin 
+    git remote add origin https://github.com/KelvinSeverino/ExampleGITWorkflow.git
+
+-> Verificando os repositorios locais
+    git remote -v
+
+-> Baixando arquivos do repositorio remoto para a branch main local
+    git pull origin main
+
+-> Altera nome da branch local para ter o mesmo nome da remota (main)
+    git branch -m nome_atual novo_nome
+
+-> Apos adicionar novos arquivos no repositorio, vamos trackear os arquivos no GIT
+    git status
+    git add file.txt
+    git add diretory/
+    git add index.html
+    git status
+
+-> Adicionar todos os arquivos no GIT
+    git add .
+
+-> Gerando commit com mensagem
+    git commit -m "Projeto Liberado"
+
+-> Subindo commit para servidor remoto (Sera pedido Username e Password=Token) 
+    git push origin main
+
+=================================================================================================================
