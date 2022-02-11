@@ -1,0 +1,18 @@
+=================================================================================================================
+
+-> Mostra a diferenca nos arquivos
+    git diff
+
+-> Mostra a diferenca nos arquivos que estao em staged
+    git diff --staged
+
+-> Mostra a diferenca de um arquivo especifico
+    git diff index.html
+
+-> Verificando historico entre commits
+    git log --oneline -n 5
+    git diff hash_do_commit
+    git diff hash_do_commit_inicial..hash_do_commit_final  (Analisa por intervalo de commits)
+    git diff hash_do_commit~3                              (Retorna os 3 ultimos do hash / mostra comitado e staged)
+
+=================================================================================================================

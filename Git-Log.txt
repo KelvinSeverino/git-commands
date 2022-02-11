@@ -1,0 +1,12 @@
+=================================================================================================================
+
+-> Verificando Logs do repositorio 
+    git log
+    git log -n 2                                         (Lista os 2 ultimos commits)
+    git log --oneline                                    (Lista logs de maneira reduzida)
+    git log --stat                                       (Lista commits com estatisticas)
+    git log -n 2 --oneline --stat                        (Compilando os parametros acima)
+    git log -n 2 --oneline --stat  --decorate            (Compilando os parametros acima com informacoes extras)
+    git log -n 2 --oneline --stat  --decorate --parent   (Compilando os parametros acima com informacoes extras e pai/filho commit)
+
+=================================================================================================================
