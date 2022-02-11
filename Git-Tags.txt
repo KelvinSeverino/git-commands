@@ -1,0 +1,19 @@
+=================================================================================================================
+
+-> Listando as tags do repositorio
+    git tag
+
+-> Criando tag
+    git tag versao1.0
+
+-> Adicionando tag em um antigo commit
+    git tag versao_mvp codigo_commit
+
+-> Deletando tag
+    git tag -d nome_tag
+
+-> Enviando uma tag para repositorio remoto
+    git push origin versao_mvp
+    git push origins --tags (enviando todas as tags)
+
+=================================================================================================================
