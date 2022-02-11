@@ -98,3 +98,8 @@
     git push origin main
 
 =================================================================================================================
+
+-> Clonando um repositorio no GitHub
+    git clone https://github.com/KelvinSeverino/Data_Analysis_Video_Game_Console.git
+
+=================================================================================================================
