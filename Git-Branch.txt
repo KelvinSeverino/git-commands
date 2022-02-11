@@ -1,0 +1,47 @@
+=================================================================================================================
+
+-> Lista branch do repositorio
+    git branch
+
+-> Criar uma nova branch (ramificacao)
+    git branch nome_branch
+
+-> Lista branches criadas
+    git branch -v   (branch marcada com * esta em uso)
+
+-> Vendo Logs (HEAD -> main) ponteiro da branch atual
+    git log --oneline --decorate --parents
+
+-> Trocando a branch
+    git checkou nome_branch
+
+-> Criando branch e trocando para ela
+    git checkout -b nome_branch
+
+-> Deletando branch (Quando nao tiver commit))
+    git branch -d nome_branch
+    git branch -D nome_branch (Quando tiver commit)
+
+-> Listar branch nao mesclada
+    git branch --no-merged
+
+-> Listando branch mesclada
+    git branch --merged
+
+-> Mesclando branches
+    git merge nome_branch_a_mesclar -m "Alteração na estrutura de conteudo"
+
+-> Listando branches de repositorio remoto
+    git branch -r
+    git branch -r -v (maiores detalhes)
+
+-> Sincronizando branch e seus commits ao repositorio remoto
+    git push origin nome_branch
+
+-> Trazendo commits de branchs remotas
+    git fetch origin
+
+-> Mesclando com branch remota
+    git merge servidor/nome_branch -m "Mensagem aqui" (origin/master)
+
+=================================================================================================================
