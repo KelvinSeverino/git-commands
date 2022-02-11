@@ -1,0 +1,67 @@
+-> Instalando o GIT
+    sudo apt-get install git
+
+-> Configurando o GIT - Gera o arquivo .gitconfig onde armazena todas as configurações no escopo global
+    git config --global user.name "Kelvin Severino"
+    git config --global user.email "email@email.com"
+
+-> Editar o arquivo de configurações
+    nano .gitconfig
+
+-> Lista as configs Globais
+    git config --global -l
+
+=================================================================================================================
+
+-> Iniciar um repositorio
+    git init
+
+-> Mostra os arquivos nao trackeados
+    git status
+
+-> Adicionar arquivo para monitoramento/trackeamento do GIT apos CRIACAO/ALTERACAO do arquivo
+    git add file.txt 
+
+-> Adicionar diretorio e arquivos para monitoramento/trackeamento do GIT apos CRIACAO/ALTERACAO do arquivo
+    git add diretorio/.
+
+-> Adicionar todos os diretorios/arquivos para monitoramento/trackeamento do GIT apos CRIACAO/ALTERACAO do arquivo
+    git add .
+
+=================================================================================================================
+
+-> Remover diretorio/arquivo do monitoramento/trackeamento do GIT
+    git rm -f file.txt
+    git rm -r -f Pasta/
+
+=================================================================================================================
+
+-> Mover diretorio/arquivo do monitoramento/trackeamento do GIT
+    git mv file.txt desino
+    git mv destino/file.txt ./
+
+=================================================================================================================
+
+-> Voltar arquivo para anterior que esta na area stage do GIT
+    git checkout -- file.txt
+    git checkout diretorio/
+
+=================================================================================================================
+
+-> Informar ao GIT arquivos para ignorar
+    nano .gitignore
+    git add .gitignore
+
+-> Adiciona os arquivos dentro do .gitignore
+    nano .gitignore        
+        file.txt
+        diretorio/
+        diretorio/*.tmp
+        *.log
+
+=================================================================================================================
+
+-> Adiciona os arquivos para Commit do GIT
+    git commit -m "Commit Inicial do Projeto"
+
+=================================================================================================================
