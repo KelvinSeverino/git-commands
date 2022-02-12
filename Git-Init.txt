@@ -1,16 +1,3 @@
--> Instalando o GIT
-    sudo apt-get install git
-
--> Configurando o GIT - Gera o arquivo .gitconfig onde armazena todas as configurações no escopo global
-    git config --global user.name "Kelvin Severino"
-    git config --global user.email "email@email.com"
-
--> Editar o arquivo de configurações
-    nano .gitconfig
-
--> Lista as configs Globais
-    git config --global -l
-
 =================================================================================================================
 
 -> Iniciar um repositorio

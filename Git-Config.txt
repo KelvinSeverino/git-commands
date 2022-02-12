@@ -1,0 +1,18 @@
+=================================================================================================================
+
+-> Instalando o GIT
+    sudo apt-get install git
+
+-> Configurando o GIT - Gera o arquivo .gitconfig onde armazena todas as configurações no escopo global
+    git config --global user.name "Kelvin Severino"
+    git config --global user.email "email@email.com"
+    git config --global credential.helper 'cache --timeout=28800' (Salva os dados de Login do GitHub por 8 horas)
+    git config --global credential.helper cache                   (Salva os dados de Login DO GitHub sem tempo de expiração)
+
+-> Editar o arquivo de configurações
+    nano .gitconfig
+
+-> Lista as configs Globais
+    git config --global -l
+
+=================================================================================================================
